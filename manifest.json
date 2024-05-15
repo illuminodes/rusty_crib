@@ -1,0 +1,20 @@
+{
+    "name": "Rusty CRIB by Illuminodes",
+    "short_name": "Rusty CRIB",
+    "icons": [{
+        "src": "./logo.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    }],
+    "splash": {
+        "show": "auto",
+        "src": "./logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    },
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#800080",
+    "theme_color": "white"
+}

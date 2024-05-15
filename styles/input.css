@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply flex h-dvh w-dvw overflow-y-auto bg-black text-white font-robomono sm:text-lg md:text-xl;
+}
+
+button {
+    @apply bg-nostr-dark text-white px-4 py-2 rounded-lg font-bold w-fit h-fit text-xs sm:text-sm md:text-base lg:text-lg border border-white;
+}
+
+a {
+    @apply text-sm font-bold sm:text-base md:text-lg;
+}
+
+svg {
+    @apply w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 text-white p-1 sm:p-2;
+}
+
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('roboto.ttf');
+}
